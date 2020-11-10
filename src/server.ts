@@ -1,1 +1,1 @@
-console.log('Hello World');
+import './models/discordClient';
