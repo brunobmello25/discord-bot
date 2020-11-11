@@ -1,5 +1,5 @@
 import Discord from 'discord.js';
 
-export function ping(message: Discord.Message) {
-  message.reply('Pong!');
+export async function ping(message: Discord.Message): Promise<void> {
+  await message.reply('Pong!');
 }
