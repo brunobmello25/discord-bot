@@ -1,2 +1,2 @@
 export * from './ping';
-export * from './random-gif';
+export * from './gif';
